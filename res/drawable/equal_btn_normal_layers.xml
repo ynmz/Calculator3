@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item>
+        <bitmap android:src="@drawable/btn_keyboard_key_light_bg"/>
+    </item>
+    <item >
+        <bitmap 
+            android:src="@drawable/btn_equal_circle_normal"
+            android:gravity="center"/>
+    </item>
+</layer-list>

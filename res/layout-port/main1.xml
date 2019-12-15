@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+/*
+ * Copyright (C) 2008, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/expre"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:gravity="right|center"
+        android:isScrollContainer="true"
+        android:paddingRight="5dp"
+        android:scrollbars="vertical"
+        android:textColor="#464646"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@android:color/darker_gray" />
+    <EditText android:layout_width="match_parent"
+              android:layout_height="58dp"
+              android:hint="请输入您的体重（单位Kg）"
+              android:textColorHint="#999999"
+              android:textColor="#333333"
+    android:id="@+id/tz"
+              android:inputType="numberDecimal"
+    />
+    <EditText android:layout_width="match_parent"
+              android:layout_height="58dp"
+              android:hint="请输入您的身高(单位米)"
+              android:id="@+id/tz1"
+              android:textColorHint="#999999"
+              android:textColor="#333333"
+              android:inputType="numberDecimal"
+    />
+<Button android:layout_width="match_parent" android:layout_height="wrap_content"
+android:text="计算"
+        android:id="@+id/jisuan"
+/>
+</LinearLayout>

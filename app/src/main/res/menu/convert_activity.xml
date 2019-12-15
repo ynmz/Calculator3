@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuCalcultor"
+        android:title="计算器"
+        />
+
+    <item
+        android:id="@+id/menuHelp"
+        android:title="帮助"
+        />
+</menu>
